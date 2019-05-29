@@ -65,7 +65,7 @@ class ContactData extends Component {
             NotificationManager.warning('Plese fill out all the fields in order to create an event.', "Form Invalid", 3000);
             return ;
         }
-        axios.post('https://ancient-wave-89479.herokuapp.com/createEvent', this.state)
+        axios.post('https://stormy-basin-42021.herokuapp.com//createEvent', this.state)
             .then ( response => {
                 response = response.data;
                 console.log(response);

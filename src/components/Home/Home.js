@@ -21,7 +21,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://ancient-wave-89479.herokuapp.com/allEvents')
+    axios.get('https://stormy-basin-42021.herokuapp.com//allEvents')
       .then ( response => {
         let fetchedEvents = response.data.data;
         this.setState({
@@ -33,7 +33,7 @@ class Home extends Component {
         NotificationManager.error("An error occurred");
       })
       
-    axios.get('https://ancient-wave-89479.herokuapp.com/eventToday')
+    axios.get('https://stormy-basin-42021.herokuapp.com//eventToday')
       .then ( response => {
         let event = response.data.data;
         if(event && event.location) {

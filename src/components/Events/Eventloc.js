@@ -18,7 +18,7 @@ class SimpleMap extends Component {
  
 
     componentDidMount() {
-        axios.get('https://ancient-wave-89479.herokuapp.com/allEvents')
+        axios.get('https://stormy-basin-42021.herokuapp.com//allEvents')
             .then ( response => {
                 let events = response.data.data;
                 if(events.length) {
