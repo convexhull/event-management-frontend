@@ -1,0 +1,27 @@
+.home-div {
+    display : flex;
+    flex-wrap: wrap;
+    height : 90vh;
+    justify-content: center;
+}
+
+.event-div {
+    display: flex;
+    flex-flow:  column;
+    height : 100%;
+    width : 30%;
+    min-width: 400px;
+    background : whitesmoke;
+    border : 3px solid grey;
+    overflow: auto;
+}
+
+.map-div {
+    height : 100%;
+    width : 70%;
+    background : whitesmoke;
+    display: flex;
+    flex-flow : column;
+    border : 3px solid grey;
+    min-width: 400px;
+}
